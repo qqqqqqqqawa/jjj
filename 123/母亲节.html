@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style >
+		body{
+			font-family: Arial,sans-serif;
+			text-align: center;
+			background-color: #f0f0f0;
+			margin: 0;
+			padding: 0px;
+		}
+		.container{
+			display: black;
+			margin: 0 auto;
+			width: 80%;
+			text-align: center;
+		}
+		header{
+			margin-bottom: 30px;
+		}
+		.greeting{
+			color: #333;
+			font-size: 24px;
+			margin-bottom: 10px;
+			opacity: 0;
+			animation: fadeIn 2s ease-in-out forwards;
+		}
+		@media(max-width:600px){
+			.container{
+				width: 100%;
+			}
+		}
+		@keyframes fadeIn{
+			0%{opacity: 0;}
+			100%{opacity: 100%;}
+		}
+		.flower-section{
+			animation: flowerIn 2s ease-in-out;
+		}
+	</style>
+</head>
+<body>
+		<div class="content">
+			
+			<header>
+				<h1 class="greeting">母亲节快乐</h1>
+				<p class="subtitle">献给世界上最伟大的母亲</p>
+			</header>
+			<section>
+				<p class="message-section">
+					亲爱的妈妈......
+				</p>
+			</section>
+			<footer>
+				<p>-您的孩子</p>
+			</footer>
+		</div>
+		<a href="./index.html">回去</a>
+</body>
+</html>
